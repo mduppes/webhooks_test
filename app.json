@@ -1,0 +1,6 @@
+{
+  "name": "Facebook webhooks test server",
+  "description": "Simple server to receive and display webhooks updates",
+  "repository": "https://github.com/mduppes/webhooks_test/",
+  "keywords": ["node", "express", "facebook", "webhooks"]
+}

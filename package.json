@@ -20,6 +20,9 @@
   "bugs": {
     "url": "https://github.com/mduppes/webhooks_test/issues"
   },
+  "scripts": {
+    "start": "node index.js"
+  },
   "homepage": "https://github.com/mduppes/webhooks_test#readme",
   "dependencies": {
     "body-parser": "^1.15.2",

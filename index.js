@@ -39,5 +39,5 @@ app.post('/webhooks', function(req, res) {
 });
 
 app.listen(PORT, function() {
-  console.log('Starting webhooks server listening on port:' + port);
+  console.log('Starting webhooks server listening on port:' + PORT);
 });

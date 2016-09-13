@@ -34,7 +34,7 @@ app.post('/webhooks', function(req, res) {
     return;
   }
   console.log(JSON.stringify(req.body, null, 2));
-  received_updates.shift(req.body);
+  received_updates.unshift(req.body);
   res.sendStatus(200);
 });
 

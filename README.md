@@ -14,3 +14,5 @@ Configure APP_SECRET, VERIFY_TOKEN under config variable settings for your proje
 * The verify token should be what you configured in the previous step.
 
 3/ While it is running, it will list received webhooks updates in chronological order at https://{heroku-url}, and you can also look at heroku logs for any errors.
+
+NOTE: Webhooks are not sent for apps in [developer mode](https://developers.facebook.com/docs/graph-api/webhooks/), only test messages are supported from the developer centre.
